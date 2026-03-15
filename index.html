@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hungerist</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- ✅ Navbar Section -->
+ <nav class="navbar" id="navbar">
+      <div class="navbar-logo">
+        <a href="index.html">
+          <img src="images/hungerist.png" alt="Company Logo" />
+        </a>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <ul class="navbar-menu" id="navbar-menu">
+        <li><a href="carporate.html">CORPORATE CATERING</a></li>
+        <li><a href="hungerist.html">HUNGERIST SWEETS</a></li>
+
+        <li class="dropdown">
+          <span>SERVICES</span>
+          <span class="arrows"><i class="fas fa-chevron-down"></i></span>
+          <ul class="dropdown-menu">
+            <li><a href="tifin.html">TIFFIN SERVICES</a></li>
+            <li><a href="table.html">TABLE SERVICES</a></li>
+            <li><a href="carporate.html">CARPORATE CATERING</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="about.html"><span> ABOUT US</span>
+          <span class="arrows"><i class="fas fa-chevron-down"></i></span>
+           <ul class="dropdown-menu">
+            <li><a href="our-team.html">OUR TEAM</a></li>
+            <li><a href="source.html">SOURCING & PROCESS</a></li>
+            <li><a href="food.html">FOOD TEST REPORTS</a></li>
+            <li><a href="gallery.html">RECIPE GALLERY</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+          </ul>
+          </a>
+        </li>
+
+        <li><a href="contact.html" class="contact-btn">CONTACT US</a></li>
+
+        <li class="social-icons">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </li>
+      </ul>
+    </nav>
+
+ <div class="slider-container main-slider">
+    <div class="slide active" style="background-image: url('images/slide1.jpg')">
+      <div class="overlay">
+        <div class="text-box">
+          <h2>Tasty, hygienic, & healthy meal at the workplace</h2>
+          <p>We at HUNGERIST corporate catering service take immense pride in fulfilling all your catering needs.</p>
+          <button class="read-btn">READ MORE</button>
+        </div>
+      </div>
+      <div class="bottom-text">Hungerist is currently available only in Delhi & NCR</div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/slide2.jpg')">
+      <div class="overlay">
+        <div class="text-box">
+          <h2>Fresh, organic, and delicious food every day</h2>
+          <p>Our meals are made with 100% organic ingredients to ensure health and purity in every bite.</p>
+          <button class="read-btn" onclick="window.location.href='corporate.html'" >CARPORATE CATERING</button>
+        </div>
+      </div>
+      <div class="bottom-text">Hungerist is currently available only in Delhi & NCR</div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/slide3.jpg')">
+      <div class="overlay">
+        <div class="text-box">
+          <h2>Customized meal plans for your team</h2>
+          <p>Choose from a variety of weekly menu options crafted to suit every taste and dietary need.</p>
+          <button class="read-btn" onclick="window.location.href='service.html'">READ MORE</button>
+        </div>
+      </div>
+      <div class="bottom-text">Hungerist is currently available only in Delhi & NCR</div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/slide4.jpg')">
+      <div class="overlay">
+        <div class="text-box">
+          <h2>Eco-friendly packaging for a better tomorrow</h2>
+          <p>We use sustainable and eco-friendly packaging because we care about your health and our planet.</p>
+          <button class="read-btn" onclick="window.location.href='corporate.html'">READ MORE</button>
+        </div>
+      </div>
+      <div class="bottom-text">Hungerist is currently available only in Delhi & NCR</div>
+    </div>
+  </div>
+
+  <button class="arrow left" id="prev">&#10094;</button>
+  <button class="arrow right" id="next">&#10095;</button>
+
+<section class="about-section fade-section">
+    <div class="about-container">
+      <div class="about-text">
+        <!-- <img src="images/beetroot.png" alt="Decor" class="decor-img left-decor"> -->
+        <h2>Who We Are</h2>
+        <p>
+          HUNGERIST is a brand of More Orgo created as a social kitchen with the end-consumer’s health in mind.
+          Conceptualized in 2015, researched for two years,  HUNGERIST has become a leading provider of
+          authentic, natural home-style organic meals.
+        </p>
+        <button class="read-more-btn">READ MORE</button>
+      </div>
+      <div class="about-image">
+        <img src="images/gray.jpeg" alt="Chef cooking">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 2 ===== -->
+  <section class="about-section fade-section-reverse">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="images/gray.jpeg" alt="Organic food">
+      </div>
+      <div class="about-text">
+        <h2>Our Philosophy</h2>
+        <p>
+          We believe in delivering meals that are not just delicious but also pure, sustainable, and wholesome.
+          Every ingredient is sourced responsibly to ensure freshness and nutrition in every bite.
+        </p>
+        <button class="read-more-btn">READ MORE</button>
+        <!-- <img src="images/beetroot.png" alt="Decor" class="decor-img right-decor"> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3 ===== -->
+  <section class="about-section fade-section">
+    <div class="about-container">
+      <div class="about-text">
+        <!-- <img src="images/beetroot.png" alt="Decor" class="decor-img left-decor"> -->
+        <h2>Our Journey</h2>
+        <p>
+          Starting with a small kitchen and a big dream,  HUNGERIST has expanded across multiple cities,
+          serving thousands of happy customers every day.
+        </p>
+        <button class="read-more-btn">READ MORE</button>
+      </div>
+       <div class="about-image">
+        <img src="images/gray.jpeg" alt="Healthy meal">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 4 ===== -->
+  <section class="about-section fade-section-reverse">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="images/gray.jpeg" alt="Healthy meal">
+      </div>
+      <div class="about-text">
+        <h2>What We Offer</h2>
+        <p>
+          From organic lunches to freshly prepared snacks, we bring the taste of home-cooked meals
+          to your doorstep while ensuring top-notch hygiene and authenticity.
+        </p>
+        <button class="read-more-btn">READ MORE</button>
+        <!-- <img src="images/beetroot.png" alt="Decor" class="decor-img right-decor"> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- --------subcribe ection -->
+
+   <section class="subscribe-section">
+    <div class="subscribe-container">
+      <!-- Left Text Content -->
+      <div class="subscribe-content">
+        <h2>Subscribe To Our Homestyle Meal Plan</h2>
+        <p>
+          Subscribe to our meal plan for everyday delicious and healthy organic food prepared 
+          with the freshest seasonal organic ingredients, delivered directly to your doorstep 
+          with unswerving promptness. It can be customised to meet your dietary preferences and 
+          convenience, as per the availability. Feed yourself with healthy food and avail maximum 
+          benefits of subscription. Hurry!
+        </p>
+        <button class="subscribe-btn">SUBSCRIBE NOW</button>
+      </div>
+
+      <!-- Right Image -->
+      <div class="subscribe-image">
+        <img src="images/kitchentool.png" alt="Meal Plan" />
+      </div>
+    </div>
+  </section>
+
+<!-- ....................... vegitables section  -->
+
+<section class="hero-section">
+    <!-- Desktop Image -->
+    <img src="images/orgainc.jpg" alt="Organic Vegetables" class="hero-image-desktop" />
+
+    <!-- Mobile Image -->
+    <img src="images/org2.jpg" alt="Organic Vegetables Mobile" class="hero-image-mobile" />
+
+    <!-- Content -->
+    <div class="hero-content">
+      <h1>Organic Tuckshop</h1>
+      <p>
+        Grocery shopping has become a lot easier with us! Choose from our wide range
+        of high-quality, 100% pure, and certified fruits, vegetables, and more.
+        You’re just one click away to meet all your grocery needs directly at your doorstep
+        to eat and stay healthy!
+      </p>
+      <button class="read-btn">READ MORE</button>
+    </div>
+  </section>
+
+  <section class="featured-dish">
+    <h1>Featured Dish of The Week</h1>
+    <p class="subheading">
+   <strong>Wholesome Wrap, Desi Heart – Paneer Meets Power Greens! – 
+      “Spinach Wrap with Paneer”</strong>
+    </p>
+
+    <div class="dish-content">
+      <img src="images/paneer.jpg" alt="Spinach Wrap with Paneer" class="dish-image" />
+    </div>
+
+    <p class="description">
+      A delicious wrap crafted with fresh spinach leaves and soft wheat flour, filled with delicately 
+      spiced paneer sautéed in cumin, ginger, and green chillies. Balanced with caramelized onions 
+      and a touch of garam masala, this wrap offers authentic desi flavours in every bite.
+    </p>
+
+    <p class="chef">Chef: XYZ GHHJ </p>
+  </section>
+
+  
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Left Section -->
+    <div class="footer-col">
+      <a href="index.html">
+      <img src="images/hungerist-yellow.png" alt="Hungerist Logo" class="footer-logo" /></a>
+      <p class="fssai-text">FSSAI REGISTRATION NO</p>
+      <div class="fssai">
+        <img src="images/fssai.png" alt="FSSAI" />
+        <span>84994990202409</span>
+      </div>
+      <div class="call">
+        <p>CALL US TO PLACE YOUR ORDER</p>
+        <p><i class="phone">📞</i> +91 1234567890</p>
+      </div>
+    </div>
+
+    <!-- Our Services -->
+    <div class="footer-col">
+      <h4>SERVICES</h4>
+      <ul>
+        <li><a href="table.html">TABLE SERVICES</a></li>
+        <li><a href="tifin.html">TIFFIN SERVICES</a></li>
+        <li><a href="carporate.html">CORPORATE CATERING SERVICES</a></li>
+        <li><a href="hungerist.html">HUNGERIST SWEETS</a></li>
+      </ul>
+    </div>
+
+    <!-- HUNGERIST -->
+    <div class="footer-col">
+      <h4>HUNGERIST</h4>
+     <ul>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="our-team.html">OUR TEAM</a></li>
+        <li><a href="process.html">SOURCING & PROCESS</a></li>
+        <li><a href="food.html">FOOD LAB TEST REPORTS</a></li>
+        <li><a href="food.html">ORGANIC FOOD</a></li>
+        <li><a href="gallery.html">RECIPE GALLERY</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-col">
+      <h4>SUPPORT</h4>
+      <ul>
+        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">FAQS</a></li>
+        <li><a href="#">TERMS & CONDITIONS</a></li>
+        <li><a href="#">PRIVACY POLICY</a></li>
+      </ul>
+    </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-col">
+      <h4>EMAIL US:</h4>
+      <p><a href="mailto:hungerist123@gmail.com">hungerist123@gmail.com</a></p>
+
+      <h4>OUR LOCATION:</h4>
+      <p>XYZ <br> NCR 123456</p>
+
+      <div class="socials">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 HUNGERIST | DESIGNED AND DEVELOPED BY <span>FOUR QUERTER</span></p>
+  </div>
+</footer>
+  
+  <script src="script/script.js"></script>
+</body>
+</html>
